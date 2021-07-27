@@ -1,0 +1,5 @@
+### this is simply the pythagorean theorum
+
+def hypotnuse(a2,b2):
+    csq = (a2**2) + (b2**2)
+    print (csq)
