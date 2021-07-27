@@ -1,1 +1,9 @@
+# This program was a challenge from a coworker to do his homework for him while he makes a basic movie ticket calulator/
+# my goal is to make a calculator that runs on a loop to put out the listing of years a peresedential electionw was held.
 
+print("The list of all presedential election years since 1792")
+
+styr = 1792
+while styr <= 2024: 
+  print(styr)
+  styr += 4 
