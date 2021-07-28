@@ -1,0 +1,17 @@
+# this is just another small thing that i am working on to build up my skill.
+# the perameters will be adult, child and military in that order.
+
+def Movie_Cost(Adult,Child,Military):
+
+    ATC = Adult * 13.69
+    CTC = Child * 10.69
+    MTC = Military * 12.69
+    
+    TBT = ATC+CTC+MTC
+    
+    Tax = TBT * .0825
+    
+    TC = Tax+TBT
+    print (TC)
+    
+ Movie_Cost(A,C,M)
