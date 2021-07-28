@@ -1,0 +1,10 @@
+# this code is just to produce a random number between an interval, in this case it will be between 1-1000 in range
+
+import random
+
+randoL = [random.randint(1,1000) for i in range(1001)]
+
+randoN = random.choice (randoL)
+
+
+print (randoN)
