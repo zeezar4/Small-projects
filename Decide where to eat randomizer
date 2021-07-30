@@ -1,0 +1,14 @@
+# This code is meant to be a an application for significant otheres everywhere with partners who are too picky to
+# decide where to eat on their own.
+# the end goal is to compile a database of all the local resteraunts in the area and output a random selection. 
+
+# this code is just to produce a random number between an interval, in this case it will be between 1-1000 in range
+
+import random
+
+FoodList = ['Whataburger','Goji Street','Wendyes','BWW','HEB Sushi']
+
+Final_Food = random.choice (FoodList)
+
+
+print (Final_Food)
