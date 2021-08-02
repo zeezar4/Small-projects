@@ -1,6 +1,8 @@
 # this is just another small thing that i am working on to build up my skill.
 # the perameters will be adult, child and military in that order.
 
+from decimal import Decimal
+
 def Movie_Cost(Adult,Child,Military):
 
     ATC = Adult * 13.69
