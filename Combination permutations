@@ -1,0 +1,10 @@
+# this code is meant to assist with any form of combination brute force attack
+# in this hyper specific case we it is for numbers, and for dial safe cracking
+# NOTE this is not for ANY FORM of criminal acctivity and is instead for hobby use!
+# This is also not a tool that is meant to be altered for any form of computer password cracking.
+
+
+
+def Combo_List (range1, range2, range 3):
+    
+    
